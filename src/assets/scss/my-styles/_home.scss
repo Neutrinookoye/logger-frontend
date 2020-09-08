@@ -1,0 +1,27 @@
+.homepage{
+    .stats{
+        margin-top: 50px;
+
+        .stat-box{
+            border: 2px solid $default-color;
+            border-radius: 5px;
+            text-align: center;
+            padding: 30px 30px 20px 30px;
+            margin-bottom: 20px;
+            background: $default-color-opacity;
+            color: $white-color;
+
+            .total{
+                font-size: 1.6rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .stats{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
